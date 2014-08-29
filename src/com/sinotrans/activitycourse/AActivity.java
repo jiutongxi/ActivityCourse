@@ -37,6 +37,7 @@ public class AActivity extends Activity {
 				// TODO Auto-generated method stub
 				Intent _intent = new Intent(AActivity.this,BActivity.class);
 				startActivity(_intent);
+				Log.i("M","A");
 				
 				
 			}
